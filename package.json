@@ -22,7 +22,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "eject": "react-scripts eject",
-    "vercel-build": "npm install --legacy-peer-deps && npm run build"
+    "vercel-build": "npm install --legacy-peer-deps && npm run build",
+    "postinstall": "npm install --force"
   },
   "eslintConfig": {
     "extends": [
